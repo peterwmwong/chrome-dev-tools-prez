@@ -47,9 +47,9 @@ body {
   margin: 0 0 20px 0;
   color: #eeeeee;
   font-family: Ubuntu, "sans-serif";
-  line-height: 0.9em;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -0.04em;
+  text-transform: none;
   text-shadow: 2px 2px 2px #222222; }
 
 .reveal h1 {
@@ -173,3 +173,5 @@ body {
 
 .reveal small code {
   vertical-align: baseline; }
+
+/*# sourceMappingURL=blood.css.map */

@@ -10,8 +10,6 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-
-
 // Include theme-specific fonts
 @font-face {
 	font-family: 'League Gothic';
@@ -27,16 +25,105 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
-// Override theme settings (see ../template/settings.scss)
-$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
-
-// Background generator
-@mixin bodyBackground() {
-	@include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
-}
-
-
-
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal h2.tip {
+  line-height: 1.5em;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+}
+.reveal blockquote {
+  padding: 15px 5px;
+
+  img {
+    border: none;
+    margin: 0 !important;
+    vertical-align: bottom;
+  }
+}
+
+section .tip-example {
+  min-height: 250px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px 5px;
+  background-color: rgba(255,255,255,.05);
+}
+
+// Hah!
+.slide-tracing-styles {
+  .suppose-to-be-blue {
+    width: auto;
+    border: none;
+    background: transparent;
+    margin: 0;
+    color: red !important;
+  }
+  .suppose-to-be-blue {
+    width: auto;
+    border: none;
+    background: transparent;
+    margin: 0;
+    color: green;
+  }
+  .suppose-to-be-blue {
+    width: auto;
+    border: none;
+    background: transparent;
+    margin: 0;
+    color: purple;
+  }
+  .suppose-to-be-blue {
+    width: auto;
+    border: none;
+    background: transparent;
+    margin: 0;
+    color: black;
+  }
+  .suppose-to-be-blue {
+    width: auto;
+    border: none;
+    background: transparent;
+    margin: 0;
+    color: white;
+  }
+  .suppose-to-be-blue {
+    width: auto;
+    border: none;
+    background: transparent;
+    margin: 0;
+    color: #F0F;
+  }
+  .suppose-to-be-blue {
+    width: auto;
+    border: none;
+    background: transparent;
+    margin: 0;
+    color: yellow;
+  }
+  .suppose-to-be-blue {
+    width: auto;
+    border: none;
+    background: transparent;
+    margin: 0;
+    color: fuschia;
+  }
+  .suppose-to-be-blue {
+    width: auto;
+    border: none;
+    background: transparent;
+    margin: 0;
+    color: #BADA55;
+  }
+  .suppose-to-be-blue {
+    width: auto;
+    border: none;
+    background: transparent;
+    margin: 0;
+    color: orange;
+  }
+}
+
+@import "../../slides/slide-style-interactive-elements.scss";
+@import "../../slides/slide-tracing-styles.scss";
