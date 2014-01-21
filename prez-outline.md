@@ -12,10 +12,10 @@
 ### FLIP
 
 - ... more than anything else.
-- 'Cause writing code is really just small portion of developing software.
-- Alot of it is trying figure out why it doesn't work as intended!
-- So with the heading of trying to figure out a problem...
-- I came up with random collection of tips with a related problem to show you one example usage.
+- Outside of writing code...
+- I'm trying to figure out why doesn't work!
+- So thinking about that way...
+- I came up a random collection of tips with a related problem to show you one example usage.
 - Hopefully this association will make it easier to remember.
 - So lets just jump in...
 
@@ -73,7 +73,7 @@ So while we're here in the elements panel...
 - Lets try `default.css`
 - And now Cmd-Shift-O lists all the CSS rules and we can jump to one of them.
 
-## Tip: Controlling the debugger
+### Tip: Controlling the debugger
 
 - In this example we have a function a() calls b() and b() calls c()
 - We can controll the debugger with these buttons on the right...
