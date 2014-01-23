@@ -221,6 +221,12 @@ section .tip-example {
 
 .slide-style-interactive-elements .tip-example .my-favorite-text {
   cursor: pointer; }
+.slide-style-interactive-elements .tip-example .my-favorite-text:hover {
+  color: red;
+  background-color: black;
+  padding: 5px 20px;
+  border: 1px solid red;
+  border-radius: 5px; }
 
 .slide-tracing-styles .tip-example .suppose-to-be-blue {
   color: blue; }

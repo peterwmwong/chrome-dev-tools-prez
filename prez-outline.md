@@ -16,11 +16,11 @@
 - Outside of writing code...
 - I'm trying to figure out why doesn't work!
 - So thinking about that way...
-- I came up a random collection of tips with a related problem to show you one example usage.
+- I came up with a random collection of tips with a related problem to show you one example usage.
 - Hopefully this association will make it easier to remember.
 - Now there are ton features in chrome dev tools.
 - Too many to handle in one talk.
-- So I'm mostly going to focus on the elements, sources and console panels.
+- So I'm going to hit a handful of features for elements, sources and console panels.
 - So lets just jump in...
 
 ### Tip: Quickly Inspect (Alt-Cmd-C)
