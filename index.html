@@ -49,13 +49,28 @@
         </section>
 
         <section>
-          <h1>The Elements Panel</h1>
+          <h2 class="tip">Tip: Quickly inspect;;libh</h2>
+          <h1>Cmd + Option + C</h1>
         </section>
 
         <section>
-          <h2 class="tip">Tip: Quickly inspect;kj</h2>
-          <h1>Cmd + Shift + C</h1>
-          <h4>Ctrl + Shift + C (win)</h4>
+          <h2 class="tip">Tip: Debugging styles</h2>
+          <blockquote>
+            <code>
+              .my-example-text {
+                text-align: right;
+              }
+            </code>
+          </blockquote>
+          <style>
+          .my-example-text {
+            text-align: right;
+          }
+          </style>
+
+          <div class="tip-example">
+            <div class="my-example-text">Hello World</div>
+          </div>
         </section>
 
         <section class="slide-style-interactive-elements">
@@ -67,7 +82,6 @@
           <div class="tip-example">
             <span class="my-favorite-text">Hello World!</span>
           </div>
-          <code>slide-style-interactive-elements.scss</code>
         </section>
 
         <section>
@@ -89,8 +103,8 @@
           <blockquote>
             Go to the <code>magnify()</code> function in <code>zoom.js</code>
           </blockquote>
-          <h1>Cmd-o</h1>
-          <h1>Cmd-Shift-o</h1>
+          <h1>Cmd-p</h1>
+          <h1>Cmd-Shift-p</h1>
         </section>
 
         <section>
@@ -189,27 +203,6 @@
           <h2>inspect()</h2>
           <h2>$0</h2>
           <h2>dir()</h2>
-          <h2>monitorEvents()</h2>
-          <div class="tip-example" style="min-height: 50px; height: 50px; overflow: scroll;">
-            <div class="foo">Foo</div>
-            <div class="bar">Bar</div>
-            <div class="baz">Baz</div>
-            <div class="foo">Foo</div>
-            <div class="bar">Bar</div>
-            <div class="baz">Baz</div>
-            <div class="foo">Foo</div>
-            <div class="bar">Bar</div>
-            <div class="baz">Baz</div>
-            <div class="foo">Foo</div>
-            <div class="bar">Bar</div>
-            <div class="baz">Baz</div>
-            <div class="foo">Foo</div>
-            <div class="bar">Bar</div>
-            <div class="baz">Baz</div>
-            <div class="foo">Foo</div>
-            <div class="bar">Bar</div>
-            <div class="baz">Baz</div>
-          </div>
         </section>
         <section>
           <h2 class="tip">Tip: Jank busting with Timeline</h2>
@@ -340,6 +333,13 @@
     <script src="js/find-element-changers.js"></script>
     <script src="js/controlling-the-debugger.js"></script>
     <!-- ========================== -->
+
+    <style>
+    .my-example-text {
+      /* Hahahaha Sucker */
+      text-align: left !important;
+    }
+    </style>
 
   </body>
 </html>

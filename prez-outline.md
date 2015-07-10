@@ -14,7 +14,7 @@
 
 - ... more than anything else.
 - Outside of writing code...
-- I'm trying to figure out why doesn't work!
+- I'm trying to figure out why doesn't my code work!
 - So thinking about that way...
 - I came up with a random collection of tips with a related problem to show you one example usage.
 - Hopefully this association will make it easier to remember.
